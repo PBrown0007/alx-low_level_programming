@@ -1,11 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 int main(void)
 {
     char s1[] = "Hello";
@@ -16,4 +11,3 @@ int main(void)
     printf("%d\n", _strcmp(s1, s1));
     return (0);
 }
-
